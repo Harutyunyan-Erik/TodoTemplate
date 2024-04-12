@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo site</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="color" id="colorPicker">
+    
+    <hr>
+
+    <div>
+        <input type="text" placeholder="Search Todo" id="searchInput">
+    </div>
+
+    <br>
+
+    <form id="addTodoForm">
+        <input type="text" placeholder="Your Todo" id="todoInput">
+        <button>Create Todo</button>
+    </form>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="pending">Pending</option>
+        <option value="completed">Completed</option>
+    </select>
+
+    <ul id="todoList"></ul>
+    <script src="./script/script.js" type="module"></script>
+</body>
+</html>
